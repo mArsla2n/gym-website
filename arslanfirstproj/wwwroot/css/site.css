@@ -1,0 +1,257 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background: #111;
+    color: #fff;
+    padding: 20px 0;
+}
+
+    header h1 {
+        margin: 0;
+        font-size: 2em;
+        text-align: center;
+    }
+
+    header nav ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+    }
+
+        header nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+            header nav ul li a {
+                color: #fff;
+                text-decoration: none;
+                font-size: 1.2em;
+            }
+
+                header nav ul li a:hover {
+                    text-decoration: underline;
+                }
+
+/* Hero Section */
+.hero {
+    background-image: url('../images/hero-bg.jpg');
+    color: black;
+    text-align: center;
+    padding: 100px 0;
+}
+
+    .hero h2 {
+        font-size: 3em;
+        margin-bottom: 20px;
+    }
+
+    .hero p {
+        font-size: 1.5em;
+        margin-bottom: 40px;
+    }
+
+    .hero .btn {
+        padding: 15px 30px;
+        background: #f44336;
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.2em;
+        border-radius: 5px;
+    }
+
+        .hero .btn:hover {
+            background: #d32f2f;
+        }
+
+/* Services Section */
+.services {
+    padding: 60px 0;
+    text-align: center;
+}
+
+    .services h2 {
+        font-size: 2.5em;
+        margin-bottom: 40px;
+    }
+
+.service-item {
+    margin-bottom: 40px;
+}
+
+    .service-item h3 {
+        font-size: 1.8em;
+        margin-bottom: 20px;
+    }
+
+    .service-item p {
+        font-size: 1.2em;
+        line-height: 1.6;
+    }
+
+/* Trainers Section */
+.trainers {
+    background: #f4f4f4;
+    padding: 60px 0;
+    text-align: center;
+}
+
+    .trainers h2 {
+        font-size: 2.5em;
+        margin-bottom: 40px;
+    }
+
+.trainer-item {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.66%;
+    vertical-align: top;
+}
+
+    .trainer-item img {
+        width: 100%;
+        border-radius: 50%;
+    }
+
+    .trainer-item h3 {
+        font-size: 1.8em;
+        margin: 20px 0 10px;
+    }
+
+    .trainer-item p {
+        font-size: 1.2em;
+        line-height: 1.6;
+    }
+
+/* Contact Section */
+.contact {
+    padding: 60px 0;
+}
+
+    .contact h2 {
+        font-size: 2.5em;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+    .form-group label {
+        display: block;
+        font-size: 1.2em;
+        margin-bottom: 5px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        width: 100%;
+        padding: 10px;
+        font-size: 1em;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .form-group textarea {
+        height: 150px;
+        resize: none;
+    }
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #f44336;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+    .btn:hover {
+        background: #d32f2f;
+    }
+
+/* Footer */
+footer {
+    background: #111;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+    footer p {
+        margin: 0;
+    }
+
+    footer .socials {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0 0;
+        text-align: center;
+    }
+
+        footer .socials li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+            footer .socials li a img {
+                width: 24px;
+                height: 24px;
+                filter: invert(1);
+            }
+
+.banner {
+    background-image: url('../images/gym-banner.jpg');;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+    .banner h1 {
+        font-size: 3em;
+        margin: 0;
+    }
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.service {
+    background-color: #fff;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+    .service img {
+        width: 100%;
+        height: auto;
+    }
+
+    .service h3 {
+        margin: 10px 0;
+    }
